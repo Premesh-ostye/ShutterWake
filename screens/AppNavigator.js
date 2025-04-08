@@ -13,6 +13,7 @@ import { View, Text } from 'react-native';
 const Stack = createNativeStackNavigator();
 
 export default function AppNavigator() {
+  
   const [user, setUser] = useState(null);        
   const [loading, setLoading] = useState(true);  
 
